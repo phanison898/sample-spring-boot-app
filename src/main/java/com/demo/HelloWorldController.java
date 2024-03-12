@@ -1,5 +1,6 @@
 package com.demo;
 
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -8,7 +9,7 @@ public class HelloWorldController {
 	
 	@GetMapping("/")
 	public String home() {
-		return "Welcome to my site";
+		return "hello world!";
 	}
 	
 	@GetMapping("/profile")
