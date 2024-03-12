@@ -1,0 +1,41 @@
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar  # Keep Maven wrapper
+
+# IDE-specific files (Eclipse, IntelliJ IDEA, etc.)
+.idea/
+*.iml
+*.ipr
+*.iws
+*.classpath
+*.project
+*.settings/
+
+# Logs
+logs/
+*.log*
+
+# Compiled files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Spring Boot
+application*.properties
+
+# Test report
+test-output/
+
+# Gradle
+.gradle/
+build/
+
+# Ignore release files
+/release/
